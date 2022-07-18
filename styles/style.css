@@ -1,0 +1,36 @@
+/*-------------------------------
+         header styles
+-------------------------------- */
+
+
+
+/* -----------------------------------------
+            nav bar styles start
+------------------------------------------- */
+.navigation-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 95px 120px;
+
+}
+
+.navigation-item a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 34px;
+
+}
+
+.navigation-item img {
+    width: 24px;
+    height: 24px;
+}
+
+/*-----------------------------------------         
+         nav bar styles end 
+------------------------------------------- */
