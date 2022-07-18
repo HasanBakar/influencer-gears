@@ -1,3 +1,8 @@
+/* utilities */
+body {
+    background-color: #FFFFFF;
+}
+
 /*-------------------------------
          header styles
 -------------------------------- */
@@ -34,3 +39,39 @@
 /*-----------------------------------------         
          nav bar styles end 
 ------------------------------------------- */
+
+.header-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 74px;
+    margin-left: 110px;
+    margin-right: 165px;
+    margin-bottom: 99px;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.button {
+    width: 196px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    border-radius: 41px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 3px;
+
+
+}
